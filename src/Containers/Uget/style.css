@@ -1,0 +1,55 @@
+.section80 {
+    height: 85vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    overflow-x: hidden;
+}
+
+.head-card {
+    background-color: #022249;
+    color: white;
+}
+
+.body-card {
+    background-color: white;
+    padding: 1em 0 0 0;
+}
+
+.bg_img {
+    background-color: #c7eef5;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.interest {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+@media only screen and (max-width: 420px) {
+    .flex-container {
+        margin-top: 10em;
+    }
+}
+
+    /* #boxL:hover {
+        transform: scale(1.2) translateX(10%);
+    }
+    #boxL:hover + #boxR {
+        transform: scale(0.8) translateX(10%);
+    }
+
+    #boxR:hover {
+        transform: scale(1.2) translateX(-10%);
+    }
+    #boxR:hover + #boxL {
+        transform: scale(0.8) translateX(-10%);
+    } */

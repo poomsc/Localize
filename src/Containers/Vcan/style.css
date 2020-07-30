@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 5em;
+}
+
+.card-item {
+    background-color: hsla(187, 58%, 79%);
+    transition: transform 0.2s; /* Animation */
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 1.3rem;
+}
+
+.card-item Img {
+    padding: 2em 2em 0.5em 2em;
+}
+
+.card-item p {
+    padding: 0 0 0.5em 0;
+}
+
+/* .card-item:hover {
+    transform: scale(
+        1.1
+    );
+} */

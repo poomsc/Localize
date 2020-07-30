@@ -1,0 +1,16 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  position: relative;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  font-weight: normal;
+  overflow-x: hidden;
+}

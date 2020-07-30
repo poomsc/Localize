@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1, "/>
+<meta name="theme-color" content="#000000" />
+<meta name="description"
+  content="fireWork เราคือแพลตฟอร์มที่จะทำให้คนที่มีงานอยากจ้างและนักศึกษาที่ต้องการหาเงิน ได้เจอกัน และสำหรับนักศึกษา ก็ยังได้ฝึกทักษะ แล้วเก็บประสบการณ์การทำงานใส่Resumeได้ด้วยนะ" />
+<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
+<title>Fire Work</title>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<!-- Firebase -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.11.0/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.11.0/firebase-analytics.js"></script>
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+<!-- Firebase -->
+
+<script
+type="text/javascript"
+src="https://apis.google.com/js/api.js"
+async
+defer
+crossorigin="anonymous"
+onload="this.onload=function(){};"
+onreadystatechange="if (this.readyState === 'complete') this.onload()"
+></script>
+
+<!-- ?popup -->
+<style>
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+</style>
+<!-- ?popup -->
+
+<!-- ?Soon's CSS -->
+<style>
+  @-moz-keyframes topToBottom {
+    0% {
+      opacity: 0;
+    }
+
+    1% {
+      opacity: 0;
+      -moz-transform: translateY(-15px);
+    }
+
+    6% {
+      opacity: 1;
+      -moz-transform: translateY(0px);
+    }
+
+    35% {
+      opacity: 1;
+      -moz-transform: translateY(0px);
+    }
+
+    40% {
+      opacity: 0;
+      -moz-transform: translateY(15px);
+    }
+
+    80% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes topToBottom {
+    0% {
+      opacity: 0;
+    }
+
+    1% {
+      opacity: 0;
+      -webkit-transform: translateY(-15px);
+    }
+
+    6% {
+      opacity: 1;
+      -webkit-transform: translateY(0px);
+    }
+
+    35% {
+      opacity: 1;
+      -webkit-transform: translateY(0px);
+    }
+
+    40% {
+      opacity: 0;
+      -webkit-transform: translateY(15px);
+    }
+
+    80% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-ms-keyframes topToBottom {
+    0% {
+      opacity: 0;
+    }
+
+    1% {
+      opacity: 0;
+      -ms-transform: translateY(-15px);
+    }
+
+    6% {
+      opacity: 1;
+      -ms-transform: translateY(0px);
+    }
+
+    35% {
+      opacity: 1;
+      -ms-transform: translateY(0px);
+    }
+
+    40% {
+      opacity: 0;
+      -ms-transform: translateY(15px);
+    }
+
+    80% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /*=========================*/
+
+  @-moz-keyframes tmpHide {
+    0% {
+      opacity: 0;
+    }
+
+    5% {
+      opacity: 0;
+      -moz-transform: translateY(-15px);
+    }
+
+    7% {
+      opacity: 1;
+      -moz-transform: translateY(0px);
+    }
+
+    70% {
+      opacity: 1;
+      -moz-transform: translateY(0px);
+    }
+
+    73% {
+      opacity: 0;
+      -moz-transform: translateY(15px);
+    }
+
+    95%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes tmpHide {
+    0% {
+      opacity: 0;
+    }
+
+    5% {
+      opacity: 0;
+      -webkit-transform: translateY(-15px);
+    }
+
+    7% {
+      opacity: 1;
+      -webkit-transform: translateY(0px);
+    }
+
+    70% {
+      opacity: 1;
+      -webkit-transform: translateY(0px);
+    }
+
+    73% {
+      opacity: 0;
+      -webkit-transform: translateY(15px);
+    }
+
+    95%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-ms-keyframes tmpHide {
+    0% {
+      opacity: 0;
+    }
+
+    5% {
+      opacity: 0;
+      -ms-transform: translateY(-15px);
+    }
+
+    7% {
+      opacity: 1;
+      -ms-transform: translateY(0px);
+    }
+
+    70% {
+      opacity: 1;
+      -ms-transform: translateY(0px);
+    }
+
+    73% {
+      opacity: 0;
+      -ms-transform: translateY(15px);
+    }
+
+    95%,
+    100% {
+      opacity: 0;
+    }
+  }
+</style>
+<!-- ?Soon's CSS -->
+
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>

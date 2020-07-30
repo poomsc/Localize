@@ -1,0 +1,48 @@
+.soon {
+    height: 17vh;
+    background-color: #022249;
+    color: white;
+	overflow: hidden;
+}
+.sentence{
+     color: white;
+     font-size: 23px;
+     text-align: center;
+     padding: 6.5vh 0;
+}
+.slidingVertical{
+	display: inline;
+	text-indent: 1px;
+}
+.slidingVertical span{
+	animation: topToBottom 6s linear infinite 0s;
+	-ms-animation: topToBottom 6s linear infinite 0s;
+	-webkit-animation: topToBottom 6s linear infinite 0s;
+	color: #f27d42;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+}
+.slidingVertical span:nth-child(2){
+	animation-delay: 2s;
+	-ms-animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+}
+.slidingVertical span:nth-child(3){
+	animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	-webkit-animation-delay: 4s;
+}
+.lastHide{
+	display: inline;
+	text-indent: 1px;
+}
+.lastHide span{
+	animation: tmpHide 6s linear infinite 0s;
+	-ms-animation: tmpHide 6s linear infinite 0s;
+	-webkit-animation: tmpHide 6s linear infinite 0s;
+	color: white;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+}
