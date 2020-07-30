@@ -6,7 +6,7 @@ import { Button } from '@material-ui/core'
 import { StylesProvider } from '@material-ui/core/styles'
 
 const Interest = props => (
-    <Link to="/joinus">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeSVvQ7vaxD-Pd9q4fs8nZeFQfCu3xWBPi3kthdNOviHfm5kA/viewform">
         <StylesProvider injectFirst>
             <Button
                 css={css`
@@ -24,9 +24,9 @@ const Interest = props => (
                     font-weight: bold;
                 `}
             >
-                Join Us
+                สนใจเข้าร่วม
             </Button>
         </StylesProvider>
-    </Link>
+    </a>
 )
 export default Interest

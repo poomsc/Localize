@@ -29,8 +29,8 @@ const Menu = props => (
         <Contact />
         <Hr />
         <br />
-        <P>Copyright FireWork, </P>
-        <P>Call: 0910785410, E-mail: firework.platform@gmail.com</P>
+        <P>Copyright Localize, </P>
+        <P>Call: 0931316936</P>
         <br />
     </div>
 )

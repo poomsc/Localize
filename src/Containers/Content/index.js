@@ -14,9 +14,9 @@ const Content = props => (
     <>
         <Cover id="section1" />
         <WhoRV />
-        <Vcan />
-        <Uget />
-        <br />
+        {/* <Vcan /> */}
+        {/* <Uget /> */}
+        {/* <br />
         <br />
         <br />
         <br />
@@ -24,16 +24,13 @@ const Content = props => (
         <Soon />
         <br />
         <br />
-        <br />
+        <br /> */}
         <div data-aos="fade-up" className="interest">
-            <br />
-            <br />
             <Interest />
             <br />
             <br />
-            <br />
         </div>
-        <FAQ />
+        {/* <FAQ /> */}
         <Foot />
     </>
 )

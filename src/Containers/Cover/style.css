@@ -1,5 +1,5 @@
 .cover-content {
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -34,12 +34,13 @@ html {
 }
 
 .cover-box img {
-    width: 50em;
+    width: 35em;
+    margin-top: 5em;
 }
 
 @media only screen and (max-width: 420px) {
     .cover-content {
-        overflow-x: hidden;
+        overflow: hidden;
         display: flex;
         flex-direction: row;
         flex-flow: wrap;
@@ -75,7 +76,7 @@ html {
         transform: translateY(5em);
     }
     .cover-content {
-        overflow-x: hidden;
+        overflow: hidden;
         display: flex;
         flex-direction: row;
         flex-flow: wrap;

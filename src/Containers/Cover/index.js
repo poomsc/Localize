@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import Interest from './../../Components/Interest'
 import wall_bg from './../../assets/pic/wall_bg1.svg'
-import font_bg from './../../assets/pic/font_bg1.svg'
+import font_bg from './../../assets/pic/font_bg.svg'
 import './style.css'
 import { Text } from 'rebass'
 import AOS from 'aos';
@@ -25,8 +25,8 @@ const Cover = props => (
         <div class="cover-content">
             <div class="cover-box" id="text-box">
                 <Text m={["3em 0 1em 0", "5em 0 1em 0", "0 0 1em 0"]}>
-                    <h1 style={{ margin: `0` }}>FireWork</h1>
-                    <p>any work for any one</p>
+                    <h1 style={{ margin: `0` }}>Localize</h1>
+                    <p>เปลี่ยนสินค้าให้น่าซื้อยิ่งขึ้น</p>
                 </Text>
                 <Interest />
                 <p id="trigger-navBar"/>
@@ -34,10 +34,10 @@ const Cover = props => (
             <div class="cover-box">
                 <img src={font_bg} alt="first_wall_bg" />
             </div>
-            <Slide href="#section2" id="explore">
+            {/* <Slide href="#section2" id="explore">
                 <p style={{margin: `0`}}>Explore</p>
                 <p style={{textAlign: `center`}}>|</p>
-            </Slide>
+            </Slide> */}
         </div>
     </section>
 )

@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import fireWork from './../../assets/icon/FireWork_txt.png'
+import fireWork from './../../assets/icon/Localize.png'
 import styled from '@emotion/styled'
 import './style.css'
 import Interest from '../Interest'

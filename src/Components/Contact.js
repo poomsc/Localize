@@ -9,18 +9,18 @@ const Icon = styled.img(props => ({
 const Contact = props => {
     return (
         <div className="option">
-            <a href="https://twitter.com/Firewor27037419">
+            <a>
                 <Icon src={twitter_logo} alt="twitter logo" />
             </a>
-            <a href="https://www.facebook.com/FireWork-101385494826075/">
+            <a>
                 <Icon src={facebook_logo} alt="facebook logo" />
             </a>
 
-            <a href="tel:0910785410" class="hover">
+            <a href="tel:0931316936" class="hover">
                 Call us
             </a>
             <a
-                href="mailto:firework.platform@gmail.com?Subject=FireWork%20platform"
+                href="mailto:sakchai.wachi@gmail.com?Subject=Localize%20support"
                 class="hover"
             >
                 Support

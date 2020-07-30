@@ -1,7 +1,7 @@
 .content-layout {
     display: flex;
     flex-direction: row;
-    overflow-x: hidden;
+    overflow: hidden;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -13,7 +13,8 @@
     flex-shrink: 0;
 }
 .content-box img{
-    width: 50em;
+    width: 40em;
+    padding-bottom: 3em;
 }
 .content-box p{
     margin: 3px;
